@@ -172,3 +172,28 @@ switch (fruit) {
 // }
 
 /***************** */
+
+/** Exo forEach */
+
+// tableau
+var fruits = ["banane", "kiwi", "orange"];
+
+// objet
+var animals = {
+	species: "dog",
+	name: "Gallia",
+	weight: "20kg",
+	age: 8,
+};
+
+// for (fruit in fruits) {
+// 	console.log(fruit);
+// 	console.log(`Mon fruit préféré est le ${fruits[fruit]}`);
+// }
+
+for (prop in animals) {
+	//console.log(prop);
+	console.log(`clé : ${prop} valeur ${animals[prop]} `);
+}
+
+/************** */
